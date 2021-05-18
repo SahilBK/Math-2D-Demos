@@ -720,6 +720,8 @@ class mainWindow(QtWidgets.QMainWindow):
         self.openGLWidget.displayflag = 2
         self.openGLWidget.updateflag = 1
 
+    #Copy and Paste
+
     def Matrixcopy_8clicked(self):
         self.Matrixset(self.matrixbuffer, self.Displaysvdmatrixbox)
 
